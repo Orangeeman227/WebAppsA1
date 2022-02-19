@@ -1,0 +1,16 @@
+body{
+	text-align:center;
+}
+div{
+    width: 80%;
+    height: 800px;
+    background-color:beige;
+    margin-left: 10%;
+    border: 1px solid #000;
+}
+span{
+	background-color: crimson;
+	width: 1em;
+	border-radius: 10em;
+	position: absolute;
+}

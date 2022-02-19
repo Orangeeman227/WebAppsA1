@@ -1,0 +1,14 @@
+*{
+    border: solid 1px;
+}
+
+div{
+    background-color:cadetblue;
+    width: 12em;
+    height: 12em;
+    text-align: center;
+    vertical-align: middle;
+}
+button{
+	background-color:beige;
+}

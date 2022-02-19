@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title id="title"> Tutorial 3</title>
+    <!-- Import the CSS files for this project -->
+    <link rel="stylesheet" href="t3.css">
+  </head>
+
+  <body>
+    <h1>Students in our class</h1>
+    <form action="javascript:processForm()">
+    <label for="studentID">Student ID:</label><br>
+    <input type="text" id="studentID" name="studentID" value="1234"><br>
+
+    <label for="fname">First name:</label><br>
+    <input type="text" id="firstName" name="firstName" value="John"><br>
+
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lastName" name="lastName" value="Doe"><br>
+
+    <label for="assignmentGrade">Assigntment Grade:</label><br>
+    <input type="text" id="assignmentGrade" name="assignmentGrade" value="32"><br>
+
+    <label for="tutorialGrade">Tutorial Grade:</label><br>
+    <input type="text" id="tutorialGrade" name="tutorialGrade" value="72"><br>
+
+    <label for="examGrade">Exam Grade:</label><br>
+    <input type="text" id="examGrade" name="examGrade" value="53"><br>
+
+    <input type="submit" disabled="true" id="btnSubmit" value="Submit" />
+    </form>
+
+    <table>
+      <tr>
+        <th>Student ID</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Assignment grade</th>
+        <th>Tutorial grade</th>
+        <th>Exam grade</th>
+      </tr>
+    </table>
+
+
+
+
+  </body>
+
+  <!-- Import the JavaScript files for this project -->
+  <script type="text/javascript" src="students.js" ></script>
+  <script type="text/javascript" src="t3.js" ></script>
+</html>

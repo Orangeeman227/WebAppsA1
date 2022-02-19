@@ -1,0 +1,28 @@
+div{
+    background-color:antiquewhite;
+    width: 25.7em;
+    height: 45em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+button{
+	background-color:firebrick;
+	color: white;
+	padding: 1em;
+	border-radius: 1em;
+	border: none;
+	width: 10em;
+}
+button:hover{
+	background-color: antiquewhite;
+	color: darkred;
+}
+#help{
+	position:absolute;
+	background-color:crimson;
+	color: white;
+	padding: 0.3em;
+	visibility: hidden;
+}
